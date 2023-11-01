@@ -17,5 +17,5 @@ match operator:
     print(num1%num2)
   case "//":
     print(num1//num2)
-  case "_":
+  case _:
     print("use a valid operator")
