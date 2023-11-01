@@ -1,0 +1,21 @@
+# make a calculator using MATCH operator and 'CASE'statment
+num1 = float(input())
+num2 = float(input())
+operator = input()
+match operator:
+  case "+":
+    print(num1+num2)
+  case "-":
+    print(num1-num2)
+  case "*":
+    print(num1*num2)
+  case "/":
+    print(num1/num2)
+  case "**":
+    print(num1**num2)
+  case "%":
+    print(num1%num2)
+  case "//":
+    print(num1//num2)
+  case "_":
+    print("use a valid operator")
